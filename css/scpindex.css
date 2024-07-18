@@ -9,10 +9,14 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 html{
     font-size: 72.5%;
     font-family: "Playwrite CU", cursive;
+}
+header{
+    background-color: var(--blanco);
 }
 header h1{
     text-align: center;
@@ -55,10 +59,69 @@ nav{
     justify-content: center;
 }
 #ubi{
-    display: inline-flex;
+    display:inline-flex;
 }
 #ubi i{
     color: var(--primario);
 }
+.botones, .botones:enabled{
+    background-color: var(--terciario);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: var(--primario);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2rem;
+}
+main{
+    background-image: linear-gradient(to top,bisque 0%,white 100%);
+    padding-top: 5px;
+}
+#cuerpo{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;    
+    box-shadow: 0px 0px 89px 16px rgba(0,0,0,0.44);
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    width: 200px;
+}
+form fieldset{
+    height: 400px;
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+}
 
+@media (max-width: 480px) {
+    .botones, .botones:first-child, .botones:visited{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    #cuerpo{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .enlace:hover{
+        background-color: var(--terciario);
+    }
+}
 
