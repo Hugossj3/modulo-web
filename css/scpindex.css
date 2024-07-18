@@ -23,10 +23,24 @@ header h1{
 header h1 span{
     font-size: 1.5rem;
 }
+nav{
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+}
 .enlace{
     color:var(--primario);
+    text-decoration: none;
+}
+.enlace:hover{
+    background-color: var(--terciario);
 }
 .navegacion{
     background-color: var(--secundario);
+}
+header section{
+    background-image: url(../img/ghibli-studio-totoro-aesthetic-desktop-wallpaper-4k.jpg);
+    background-size: 100%;
+    padding: 20px;
 }
 
