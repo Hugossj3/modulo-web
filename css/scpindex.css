@@ -97,8 +97,16 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.titulillo{
+    color: var(--primario);
+}
 .item{
     width: 200px;
+}
+.figuritas{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--terciario);
 }
 form fieldset{
     height: 400px;
