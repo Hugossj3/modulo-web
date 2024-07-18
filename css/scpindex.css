@@ -38,9 +38,27 @@ nav{
 .navegacion{
     background-color: var(--secundario);
 }
-header section{
+.banner{
     background-image: url(../img/ghibli-studio-totoro-aesthetic-desktop-wallpaper-4k.jpg);
-    background-size: 100%;
-    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30%;
+    color: var(--terciario);
 }
+.banner section{
+    background-color: rgb(0, 0, 0,0.6);
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ubi{
+    display: inline-flex;
+}
+#ubi i{
+    color: var(--primario);
+}
+
 
