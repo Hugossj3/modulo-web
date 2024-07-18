@@ -5,7 +5,11 @@
     --negro: rgb(0,0,0);
     --blanco: rgb(255,255,255);
 }
-
+/*https://allthetags.com/*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
 html{
     font-size: 72.5%;
     font-family: "Playwrite CU", cursive;
@@ -19,3 +23,10 @@ header h1{
 header h1 span{
     font-size: 1.5rem;
 }
+.enlace{
+    color:var(--primario);
+}
+.navegacion{
+    background-color: var(--secundario);
+}
+
