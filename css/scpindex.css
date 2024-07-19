@@ -103,13 +103,33 @@ main{
 .item{
     width: 200px;
 }
+.item p{
+    line-height: 2;
+}
 .figuritas{
     padding: 10px;
     border-radius: 50%;
     background-color: var(--terciario);
 }
-form fieldset{
-    height: 400px;
+#formulario{
+    width: min(80rem, 100%);
+}
+
+#formulario fieldset{
+    height: 300px;
+    background-color: rgb(91, 13, 13);
+    border-radius: 5px;
+    border-style: none;
+    padding: 3%;
+    color: var(--terciario);
+}
+#formulario fieldset p{
+    margin-bottom: 5%;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+input, textarea{
+    border-radius: 5px;
 }
 footer{
     text-align: center;
