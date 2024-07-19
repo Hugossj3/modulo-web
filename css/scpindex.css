@@ -116,7 +116,7 @@ main{
 }
 
 #formulario fieldset{
-    height: 300px;
+    height: auto;
     background-color: rgb(91, 13, 13);
     border-radius: 5px;
     border-style: none;
@@ -130,6 +130,28 @@ main{
 }
 input, textarea{
     border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#mensaje{
+    height: 100px;
+}
+#send{
+    width: 30%;
+}
+#inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto auto;
+    column-gap: 1rem;
+}
+.container-input{
+    width: 100%;
+    text-align: left;
+}
+.container-input:nth-child(3),
+.container-input:nth-child(4){
+    grid-column: 1/-1;
 }
 footer{
     text-align: center;
@@ -151,5 +173,16 @@ footer{
     .enlace:hover{
         background-color: var(--terciario);
     }
+    input{
+        width: 100%;
+    }
+    .container-input{
+        grid-column: 1/-1;
+    }
+    #send{
+        height: 20px;
+        width: 100%;
+    }
+
 }
 

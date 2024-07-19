@@ -83,26 +83,29 @@
                 <form action="" id="formulario">
                     <fieldset>
                         <p>Contacta con el Siguiente Formulario</p>
-                        <div class="container-input">
-                            <label>Nombre</label>
-                            <input type="text" placeholder="nombre">
+                        <div id="inputs">
+
+                            <div class="container-input">
+                                <label>Nombre</label>
+                                <input type="text" placeholder="nombre">
+                            </div>
+                            <div class="container-input">
+                                <label>Telefono</label>
+                                <input type="tel" placeholder="telefono">
+                            </div>
+                            <div class="container-input">
+                                <label>Correo</label>
+                                <input type="email" placeholder="correo">
+                            </div>
+                            <div class="container-input">
+                                <label>Comentario</label>
+                                <textarea id="mensaje"></textarea>
+                            </div>
+                            
                         </div>
-                        <div class="container-input">
-                            <label>Telefono</label>
-                            <input type="tel" placeholder="telefono">
-                        </div>
-                        <div class="container-input">
-                            <label>Correo</label>
-                            <input type="email" placeholder="correo">
-                        </div>
-                        <div class="container-input">
-                            <label>Comentario</label>
-                            <textarea></textarea>
-                        </div>
-                        
 
 
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" id="send">
                     </fieldset>
                 </form>
             </section>
