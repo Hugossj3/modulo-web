@@ -14,6 +14,7 @@
 html{
     font-size: 72.5%;
     font-family: "Playwrite CU", cursive;
+    scroll-behavior: smooth;
 }
 header{
     background-color: var(--blanco);
@@ -30,6 +31,8 @@ header h1 span{
 nav{
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 0px;
 }
 .enlace{
     color:var(--primario);
@@ -39,7 +42,6 @@ nav{
 }
 .enlace:hover{
     background-color: var(--terciario);
-    width: 100%;
     text-align: center;
 }
 .navegacion{
@@ -177,6 +179,9 @@ footer{
     nav{
         flex-direction: column;
         align-items: center;
+    }
+    .enlace:hover{
+        width: 100%;
     }
     #cuerpo{
         margin-left: 5%;
