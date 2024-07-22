@@ -120,7 +120,7 @@ main{
     background-color: var(--terciario);
 }
 #formulario{
-    width: min(80rem, 100%);
+    width: min(100%);
 }
 
 #formulario fieldset{
